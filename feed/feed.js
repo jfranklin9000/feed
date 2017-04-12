@@ -124,6 +124,7 @@ function sendPost() {
       console.log(post);
       console.log('succeeded! Response:');
       console.log(response.data);
+      document.getElementById('postBox').value = "";
     });
 }
 

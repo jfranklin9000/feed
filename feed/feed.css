@@ -36,3 +36,9 @@ button {
   display: block;
   margin-top: 12px;
 }
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
